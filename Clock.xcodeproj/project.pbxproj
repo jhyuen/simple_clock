@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2B335FD1211430AF00027E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B335FD0211430AF00027E97 /* AppDelegate.swift */; };
-		2B335FD3211430AF00027E97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B335FD2211430AF00027E97 /* ViewController.swift */; };
+		2B335FD3211430AF00027E97 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B335FD2211430AF00027E97 /* ClockViewController.swift */; };
 		2B335FD6211430AF00027E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B335FD4211430AF00027E97 /* Main.storyboard */; };
 		2B335FD8211430B000027E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B335FD7211430B000027E97 /* Assets.xcassets */; };
 		2B335FDB211430B000027E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B335FD9211430B000027E97 /* LaunchScreen.storyboard */; };
 		2B335FE6211430B000027E97 /* ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B335FE5211430B000027E97 /* ClockTests.swift */; };
 		2B335FF1211430B000027E97 /* ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B335FF0211430B000027E97 /* ClockUITests.swift */; };
+		2B335FFF21143B7E00027E97 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B335FFE21143B7E00027E97 /* SettingsViewController.swift */; };
+		2B33600121144B5B00027E97 /* AppInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B33600021144B5B00027E97 /* AppInformationViewController.swift */; };
+		2B3360062116514800027E97 /* TimerBoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3360052116514800027E97 /* TimerBoy.swift */; };
+		2B336008211654C100027E97 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B336007211654C100027E97 /* GlobalVariables.swift */; };
+		2B33600A211900BC00027E97 /* DynamicFontFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B336009211900BC00027E97 /* DynamicFontFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		2B335FCD211430AF00027E97 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B335FD0211430AF00027E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B335FD2211430AF00027E97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B335FD2211430AF00027E97 /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
 		2B335FD5211430AF00027E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B335FD7211430B000027E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B335FDA211430B000027E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		2B335FEC211430B000027E97 /* ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B335FF0211430B000027E97 /* ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITests.swift; sourceTree = "<group>"; };
 		2B335FF2211430B000027E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B335FFE21143B7E00027E97 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2B33600021144B5B00027E97 /* AppInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationViewController.swift; sourceTree = "<group>"; };
+		2B3360052116514800027E97 /* TimerBoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBoy.swift; sourceTree = "<group>"; };
+		2B336007211654C100027E97 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		2B336009211900BC00027E97 /* DynamicFontFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFontFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				2B335FD0211430AF00027E97 /* AppDelegate.swift */,
-				2B335FD2211430AF00027E97 /* ViewController.swift */,
-				2B335FD4211430AF00027E97 /* Main.storyboard */,
+				2B33600321144B6F00027E97 /* Controller */,
+				2B33600421144B7200027E97 /* View */,
+				2B33600221144B6800027E97 /* Model */,
 				2B335FD7211430B000027E97 /* Assets.xcassets */,
-				2B335FD9211430B000027E97 /* LaunchScreen.storyboard */,
 				2B335FDC211430B000027E97 /* Info.plist */,
 			);
 			path = Clock;
@@ -123,6 +133,35 @@
 				2B335FF2211430B000027E97 /* Info.plist */,
 			);
 			path = ClockUITests;
+			sourceTree = "<group>";
+		};
+		2B33600221144B6800027E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B3360052116514800027E97 /* TimerBoy.swift */,
+				2B336007211654C100027E97 /* GlobalVariables.swift */,
+				2B336009211900BC00027E97 /* DynamicFontFunctions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B33600321144B6F00027E97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B335FD2211430AF00027E97 /* ClockViewController.swift */,
+				2B33600021144B5B00027E97 /* AppInformationViewController.swift */,
+				2B335FFE21143B7E00027E97 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B33600421144B7200027E97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B335FD4211430AF00027E97 /* Main.storyboard */,
+				2B335FD9211430B000027E97 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,13 +232,16 @@
 				TargetAttributes = {
 					2B335FCC211430AF00027E97 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 					2B335FE0211430B000027E97 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 2B335FCC211430AF00027E97;
 					};
 					2B335FEB211430B000027E97 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 2B335FCC211430AF00027E97;
 					};
 				};
@@ -256,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B335FD3211430AF00027E97 /* ViewController.swift in Sources */,
+				2B336008211654C100027E97 /* GlobalVariables.swift in Sources */,
+				2B335FD3211430AF00027E97 /* ClockViewController.swift in Sources */,
+				2B33600A211900BC00027E97 /* DynamicFontFunctions.swift in Sources */,
 				2B335FD1211430AF00027E97 /* AppDelegate.swift in Sources */,
+				2B335FFF21143B7E00027E97 /* SettingsViewController.swift in Sources */,
+				2B3360062116514800027E97 /* TimerBoy.swift in Sources */,
+				2B33600121144B5B00027E97 /* AppInformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -439,7 +486,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = illum.Clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,7 +504,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = illum.Clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -477,7 +524,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = illum.ClockTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clock.app/Clock";
 			};
@@ -498,7 +545,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = illum.ClockTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clock.app/Clock";
 			};
@@ -518,7 +565,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = illum.ClockUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Clock;
 			};
@@ -538,7 +585,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = illum.ClockUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Clock;
 			};
