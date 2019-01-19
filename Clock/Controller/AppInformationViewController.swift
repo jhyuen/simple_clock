@@ -9,7 +9,8 @@
 import UIKit
 
 class AppInformationViewController: UIViewController {
-
+    
+    @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var infoLbl: UILabel!
     @IBOutlet weak var backBtn: UIButton!
     

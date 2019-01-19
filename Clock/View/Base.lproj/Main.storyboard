@@ -329,7 +329,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made by Illum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9S-im-2oU">
-                                <rect key="frame" x="273" y="175.5" width="121" height="24"/>
+                                <rect key="frame" x="273" y="185.5" width="121" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -345,18 +345,29 @@
                                     <action selector="goBackToSettings:" destination="V4m-Y7-viu" eventType="touchUpInside" id="Bxo-Os-J81"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simple Clock" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L77-sc-6N3">
+                                <rect key="frame" x="272" y="156.5" width="123" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="HCG-7I-Glt" secondAttribute="bottom" constant="30" id="11d-P9-nBX"/>
+                            <constraint firstItem="L77-sc-6N3" firstAttribute="centerX" secondItem="Bf2-rP-d2e" secondAttribute="centerX" id="63f-qf-Eg3"/>
                             <constraint firstItem="HCG-7I-Glt" firstAttribute="leading" secondItem="Bf2-rP-d2e" secondAttribute="leading" constant="30" id="BXC-5z-KG7"/>
-                            <constraint firstItem="K9S-im-2oU" firstAttribute="centerY" secondItem="Bf2-rP-d2e" secondAttribute="centerY" id="CrX-jv-MHr"/>
+                            <constraint firstItem="K9S-im-2oU" firstAttribute="centerY" secondItem="Bf2-rP-d2e" secondAttribute="centerY" constant="10" id="CrX-jv-MHr"/>
+                            <constraint firstItem="L77-sc-6N3" firstAttribute="centerX" secondItem="Bf2-rP-d2e" secondAttribute="centerX" id="Ugh-nz-bKn"/>
+                            <constraint firstItem="K9S-im-2oU" firstAttribute="top" secondItem="L77-sc-6N3" secondAttribute="bottom" constant="20" id="mzQ-CH-Gut"/>
+                            <constraint firstItem="K9S-im-2oU" firstAttribute="top" secondItem="L77-sc-6N3" secondAttribute="bottom" constant="5" id="opS-qt-0YE"/>
                             <constraint firstItem="K9S-im-2oU" firstAttribute="centerX" secondItem="Bf2-rP-d2e" secondAttribute="centerX" id="put-wN-QlG"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="backBtn" destination="HCG-7I-Glt" id="esa-eb-U7p"/>
                         <outlet property="infoLbl" destination="K9S-im-2oU" id="xjb-FX-36e"/>
+                        <outlet property="titleLbl" destination="L77-sc-6N3" id="lMM-f3-gV9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="alg-GS-yZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
