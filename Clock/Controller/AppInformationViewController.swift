@@ -37,16 +37,19 @@ class AppInformationViewController: UIViewController {
         switch theme {
         case 0: // white
             view.backgroundColor = UIColor.white
+            titleLbl.textColor = UIColor.black
             infoLbl.textColor = UIColor.black
             backBtn.setImage(UIImage(named: "GearIconBlack"), for: .normal)
             break;
         case 1: // black
             view.backgroundColor = UIColor.black
+            titleLbl.textColor = UIColor.white
             infoLbl.textColor = UIColor.white
             backBtn.setImage(UIImage(named: "GearIconWhite"), for: .normal)
             break;
         default:
             view.backgroundColor = UIColor.white
+            titleLbl.textColor = UIColor.black
             infoLbl.textColor = UIColor.black
             backBtn.setImage(UIImage(named: "GearIconBlack"), for: .normal)
             break;

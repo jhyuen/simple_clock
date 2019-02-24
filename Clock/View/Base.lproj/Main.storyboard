@@ -345,8 +345,8 @@
                                     <action selector="goBackToSettings:" destination="V4m-Y7-viu" eventType="touchUpInside" id="Bxo-Os-J81"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simple Clock" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L77-sc-6N3">
-                                <rect key="frame" x="272" y="156.5" width="123" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clockwork" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L77-sc-6N3">
+                                <rect key="frame" x="283" y="156.5" width="101" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -359,7 +359,6 @@
                             <constraint firstItem="HCG-7I-Glt" firstAttribute="leading" secondItem="Bf2-rP-d2e" secondAttribute="leading" constant="30" id="BXC-5z-KG7"/>
                             <constraint firstItem="K9S-im-2oU" firstAttribute="centerY" secondItem="Bf2-rP-d2e" secondAttribute="centerY" constant="10" id="CrX-jv-MHr"/>
                             <constraint firstItem="L77-sc-6N3" firstAttribute="centerX" secondItem="Bf2-rP-d2e" secondAttribute="centerX" id="Ugh-nz-bKn"/>
-                            <constraint firstItem="K9S-im-2oU" firstAttribute="top" secondItem="L77-sc-6N3" secondAttribute="bottom" constant="20" id="mzQ-CH-Gut"/>
                             <constraint firstItem="K9S-im-2oU" firstAttribute="top" secondItem="L77-sc-6N3" secondAttribute="bottom" constant="5" id="opS-qt-0YE"/>
                             <constraint firstItem="K9S-im-2oU" firstAttribute="centerX" secondItem="Bf2-rP-d2e" secondAttribute="centerX" id="put-wN-QlG"/>
                         </constraints>

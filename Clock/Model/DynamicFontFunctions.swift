@@ -102,10 +102,11 @@ extension String {
 
 func scaleTimeTextToFrame(label: UILabel, view:UIView) {
     
-    let basicString:String = "23:23"
+    // 8 is the fattest single digit number
+    let basicString:String = "88:88"
     var correctFontSize:CGFloat = 100
     
-    print("Time Label Font:\(label.font)")
+    //print("Time Label Font:\(label.font)")
     print("BasicFont Font:\(basicFont)")
     print("Basic String Width:\(basicString.width(withConstrainedHeight: 3000, font: basicFont))")
     print("Basic String Height:\(basicString.height(withConstrainedWidth: 3000, font: basicFont))")
@@ -128,7 +129,6 @@ func scaleTimeTextToFrame(label: UILabel, view:UIView) {
         basicFont = UIFont.systemFont(ofSize: correctFontSize, weight:UIFont.Weight.bold)
         
         //print("\(correctFontSize)")
-        
     }
     
     correctFontSize = correctFontSize - 1

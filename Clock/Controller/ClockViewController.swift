@@ -57,7 +57,6 @@ class ClockViewController: UIViewController {
          */
         
         // Note: Devices do not know if they are portrait or landscape at the beginning of a program
-        
         scaleTimeTextToFrame(label: timeLbl, view:clockView)
         print("isPortrait:\(UIDevice.current.orientation.isPortrait)")
         print("isLandscape:\(UIDevice.current.orientation.isLandscape)")
@@ -66,7 +65,7 @@ class ClockViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
+            
         // Retrieve Saved Data
         dateGV = UserDefaults.standard.integer(forKey: "dateGV")
         timeGV = UserDefaults.standard.integer(forKey: "timeGV")
@@ -118,8 +117,9 @@ class ClockViewController: UIViewController {
         
         startTimer()
         
-        timeLbl.layer.borderColor = UIColor.black.cgColor
-        timeLbl.layer.borderWidth = 3.0;
+        // Border used for testing font sizes
+        //timeLbl.layer.borderColor = UIColor.black.cgColor
+        //timeLbl.layer.borderWidth = 3.0;
         
         //var stringTest:String = "23:23"
         //var fontTest = UIFont(descri, size: 180)
@@ -197,7 +197,6 @@ class ClockViewController: UIViewController {
             settingsBtn.setImage(UIImage(named: "GearIconBlack"), for: .normal)
             break;
         }
-        
     }
     
     func displayDate() {
@@ -249,10 +248,8 @@ class ClockViewController: UIViewController {
                 timeLbl.text = "\(hour):\(formattedMinute)"
             }
         }
-
-        //timeLbl.fitTextToBounds()
         
-        //timeLbl.text = "23:46"
+        //timeLbl.text = "22:22"
     }
     
     func stopTimer() {
