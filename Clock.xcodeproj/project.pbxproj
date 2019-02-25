@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B335FCD211430AF00027E97 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B335FCD211430AF00027E97 /* Clockwork: Display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clockwork: Display.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B335FD0211430AF00027E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B335FD2211430AF00027E97 /* ClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewController.swift; sourceTree = "<group>"; };
 		2B335FD5211430AF00027E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		2B335FCE211430AF00027E97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B335FCD211430AF00027E97 /* Clock.app */,
+				2B335FCD211430AF00027E97 /* Clockwork: Display.app */,
 				2B335FE1211430B000027E97 /* ClockTests.xctest */,
 				2B335FEC211430B000027E97 /* ClockUITests.xctest */,
 			);
@@ -181,7 +181,7 @@
 			);
 			name = Clock;
 			productName = Clock;
-			productReference = 2B335FCD211430AF00027E97 /* Clock.app */;
+			productReference = 2B335FCD211430AF00027E97 /* Clockwork: Display.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2B335FE0211430B000027E97 /* ClockTests */ = {
@@ -478,14 +478,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UV9N6MFHJM;
+				DEVELOPMENT_TEAM = 9B8N77PSA8;
 				INFOPLIST_FILE = Clock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = illum.Clock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.illum.Clockwork;
+				PRODUCT_NAME = "Clockwork: Display";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -496,14 +496,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UV9N6MFHJM;
+				DEVELOPMENT_TEAM = 9B8N77PSA8;
 				INFOPLIST_FILE = Clock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = illum.Clock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.illum.Clockwork;
+				PRODUCT_NAME = "Clockwork: Display";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
